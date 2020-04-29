@@ -4,16 +4,17 @@ import utilidades.Utilidades;
 public class Agenda {
     
     public Agenda() {
-        Persona[] Person = new Persona[6];
+        Persona[] Person = new Persona[7];
         Person[0] =  new Cliente(1, "Pedro", "Gutierrez Perez", "pegupe@gmail.com", 922222222, 922222223, "7129323A", 1);
         Person[1] =  new Cliente(2, "Juan", "Martinez Sanchez", "jumasa@gmail.com", 922222224, 922222225, "7639323B", 2);
         Person[2] =  new Proveedor(3, "Antonio", "Gomez Gomez", "angogo@gmail.com", 922222226, 922222227, "7749323C", 1);
         Person[3] =  new Proveedor(4, "María", "Lopez Marín", "maloma@gmail.com", 922222228, 922222229, "7167323D", 2);
         Person[4] =  new Usuario(5, "Luisa", "Ramirez Núñez", "luranu@gmail.com", 922222230, 922222231, "luisita85", "miperroskip85");
         Person[5] =  new Usuario(6, "Diana", "Paz García", "dipaga@gmail.com", 922222232, 922222233, "dianauser", "migatoPelusa95");
+        Person[7] =  new Cliente();
         Person = inicio(Person);
     }
-        
+    
     public static void main(String[] args) {
         Agenda agenda = new Agenda();
     }
