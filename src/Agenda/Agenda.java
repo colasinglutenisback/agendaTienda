@@ -11,7 +11,7 @@ public class Agenda {
         Person[3] =  new Proveedor(4, "María", "Lopez Marín", "maloma@gmail.com", 922222228, 922222229, "7167323D", 2);
         Person[4] =  new Usuario(5, "Luisa", "Ramirez Núñez", "luranu@gmail.com", 922222230, 922222231, "luisita85", "miperroskip85");
         Person[5] =  new Usuario(6, "Diana", "Paz García", "dipaga@gmail.com", 922222232, 922222233, "dianauser", "migatoPelusa95");
-        Person[7] =  new Proveedor();
+        Person[7] =  new Usuario();
         Person = inicio(Person);
     }
     
